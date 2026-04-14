@@ -5,15 +5,17 @@ const projects = [
     title: 'Gestion de ferme de poulet',
     description:
       'Application PHP locale construite pour gérer la production et le suivi des poulets de chair.',
-    link: '#',
-    status: 'À publier sur GitHub',
+    link: 'http://localhost/ferme_poulets/',
+    status: 'Voir en local',
+    github: 'https://github.com/juniorkianpi-png/gestion-ferme',
   },
   {
     title: 'Gestion de boutique',
     description:
       'Application de gestion de stock en local réalisée avec WAMP et PHP.',
-    link: '#',
-    status: 'À publier sur GitHub',
+    link: 'http://localhost/site-gestion/',
+    status: 'Voir en local',
+    github: 'https://github.com/juniorkianpi-png/gestion-boutique',
   },
 ]
 
@@ -86,7 +88,7 @@ function App() {
         <section className="section projects">
           <div className="section-header">
             <h2>Projets</h2>
-            <p>Deux projets locaux à publier sur GitHub bientôt.</p>
+            <p>Mes projets PHP/WAMP avec liens vers GitHub et accès local.</p>
           </div>
           <div className="project-grid">
             {projects.map((project) => (
@@ -120,8 +122,7 @@ function App() {
         <section className="section contact">
           <h2>Contact</h2>
           <p>
-            Disponible pour un stage ou une mission de développement web. Je suis
-            prêt à partager mes projets locaux et à les publier sur GitHub.
+            Disponible pour un stage ou une mission de développement web. Retrouvez mes projets sur GitHub et testez-les en local via WAMP.
           </p>
           <div className="contact-grid">
             <div>
